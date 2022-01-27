@@ -1,3 +1,6 @@
+[![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=billypchan)](https://github.com/LordDashMe/github-contribution-stats/)
+
+
 # [GitHub Stats Visualization](https://github.com/jstrieb/github-stats)
 
 <a href="https://github.com/jstrieb/github-stats">
