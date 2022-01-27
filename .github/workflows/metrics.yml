@@ -1,2 +1,26 @@
-- name: Metrics embed
-  uses: lowlighter/metrics@v3.18
+name: My Github metrics
+on:
+  push:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:    
+      - name: Metrics embed
+  # You may pin to the exact commit or the version.
+  # uses: lowlighter/metrics@0c4ce7ce02e34cc5a9d1654461c69c6b2890dce6
+        uses: lowlighter/metrics@v3.18
+#         with:
+          # Base content
+#           base: # optional, default is header, activity, community, repositories, metadata
+          # Repositories to fetch
+#           repositories: # optional, default is 100
+          # Repositories to fetch at a time
+#           repositories_batch: # optional, default is 100
+          # Include forks
+#           repositories_forks: # optional
+          # Repositories affiliations
+#           repositories_affiliations: # optional, default is owner
+          # Default skipped repositories
+#           repositories_skipped: # optional, default is 
+          # Default ignored users
+#           users_ignored: # option
